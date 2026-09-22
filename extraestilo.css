@@ -1,0 +1,48 @@
+/*Camila Alexandra Carrillo Monreal*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+}
+
+.dibujo {
+    display: grid;
+
+    /* 15 columnas */
+    grid-template-columns: repeat(15, 48px);
+
+    /* 12 filas */
+    grid-template-rows: repeat(12, 48px);
+
+    width: 720px;
+    height: 576px;
+}
+
+/* Cada div es un pixel */
+.dibujo div {
+    width: 48px;
+    height: 48px;
+
+    border: 1px solid #dddddd;
+}
+
+/* Colores */
+
+.rosa {
+    background-color: #ffa8e9;
+}
+
+.amarillo {
+    background-color: #fffb00;
+}
+
+.negro {
+    background-color: #000000;
+}
+
+.azul {
+    background-color: #5bc8eb;
+}
